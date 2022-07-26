@@ -3,17 +3,19 @@
 .card__invoice {
   padding: 1.4rem;
   flex-basis: auto;
+  font-family: "Rubik";
 
   flex-grow: 1;
-  // min-width: 300px;
+
   background: #ffffff;
   min-height: 200px;
   border: 1px solid rgba(26, 56, 96, 0.1);
   border-radius: 5px;
 
   &-amount {
-    font-weight: 500;
-    font-size: $font-size-medium;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: $font-size-large;
     line-height: 125.3%;
     padding: 1rem 0;
   }
