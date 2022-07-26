@@ -1,0 +1,65 @@
+@import "../../sass/main.scss";
+
+.main__container {
+  flex: 1;
+  padding: 4rem 2rem;
+
+  &__text-box {
+    margin-bottom: 2rem;
+    .heading {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 28px;
+      line-height: 125.3%;
+      padding: 1rem;
+      /* or 35px */
+
+      display: flex;
+      align-items: center;
+    }
+
+    .text {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 161.1%;
+      padding: 1rem;
+
+      /* or 29px */
+      color: #6e6f7d;
+      display: flex;
+      align-items: center;
+    }
+  }
+  .widget__container {
+    display: flex;
+    // justify-content: space-between;
+
+    width: 100%;
+    gap: 2rem;
+  }
+  .project__container {
+    position: relative;
+    display: flex;
+    // justify-content: space-between;
+    width: 100%;
+    // padding: 0 1rem;
+    gap: 2rem;
+    overflow: hidden;
+
+    .scroll__icon {
+      position: absolute;
+      top: 6rem;
+      right: -7rem;
+    }
+  }
+
+  .invoice__container {
+    display: flex;
+    gap: 2rem;
+    // justify-content: space-between;
+
+    width: 100%;
+    padding: 0 1rem;
+  }
+}

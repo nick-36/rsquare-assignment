@@ -1,0 +1,63 @@
+@import "../../sass/main.scss";
+
+.sidebar__container {
+  background: rgba(25, 59, 103, 0.02);
+
+  flex: 1;
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  justify-content: center;
+
+  .sidebar .sidebar__box:not(:last-child) {
+    margin-bottom: 5rem;
+  }
+
+  .sidebar {
+    margin-top: 10rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__box--1 {
+      width: 100%;
+    }
+
+    &__box--2 {
+      width: 100%;
+      .title {
+        font-size: $font-size-large;
+        line-height: 21px;
+        margin-bottom: 2rem;
+        text-align: center;
+      }
+    }
+
+    .list__items {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      padding: 0px;
+      list-style: none;
+    }
+
+    .list__item {
+      font-size: $font-size-large;
+      font-weight: 300;
+      line-height: 21px;
+      display: flex;
+
+      align-items: center;
+      gap: 1rem;
+      padding: 1rem 4rem;
+
+      color: rgba(28, 48, 74, 0.5);
+    }
+  }
+
+  .active {
+    color: #14a9f9 !important;
+
+    border-left: 4px solid #14a9f9;
+  }
+}

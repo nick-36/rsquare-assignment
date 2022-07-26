@@ -1,0 +1,84 @@
+@import "../../sass//main.scss";
+
+.card__invoice {
+  padding: 1.4rem;
+  flex-basis: auto;
+
+  flex-grow: 1;
+  // min-width: 300px;
+  background: #ffffff;
+  min-height: 200px;
+  border: 1px solid rgba(26, 56, 96, 0.1);
+  border-radius: 5px;
+
+  &-amount {
+    font-weight: 500;
+    font-size: $font-size-medium;
+    line-height: 125.3%;
+    padding: 1rem 0;
+  }
+
+  .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    &__text {
+      font-weight: 400;
+      font-size: $font-size-medium;
+      line-height: 161.1%;
+
+      color: rgba(26, 41, 61, 0.83);
+    }
+    &__status {
+      padding: 1rem 2rem;
+      background: #14a9f9;
+      border-radius: 2px;
+      font-weight: 400;
+      font-size: $font-size-ex-small;
+      line-height: 14px;
+      text-align: center;
+
+      color: #ffffff;
+    }
+  }
+
+  .user {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem 0;
+
+    .info {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      .user__name {
+        font-weight: 500;
+        font-size: $font-size-medium;
+        line-height: 125.3%;
+      }
+
+      .user__id {
+        font-weight: 400;
+        font-size: $font-size-ex-small;
+        line-height: 122%;
+        color: rgba(24, 39, 58, 0.94);
+      }
+
+      .invoice__date {
+        font-weight: 400;
+        font-size: $font-size-ex-small;
+        line-height: 122%;
+        color: rgba(28, 46, 69, 0.6);
+      }
+
+      .span__box {
+        width: 100%;
+        display: flex;
+        gap: 2rem;
+      }
+    }
+  }
+}

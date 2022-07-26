@@ -1,0 +1,114 @@
+@import "../../sass/main.scss";
+
+.card__project {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5rem;
+  padding: 2rem 1rem;
+  font-family: "Rubik";
+  font-style: normal;
+  // flex-basis: auto;
+  flex-grow: 1;
+  min-width: 28rem;
+  background: #fff;
+  box-shadow: 0px 20px 60px rgba(2, 140, 213, 0.15);
+  border-radius: 11.4904px;
+
+  &-heading {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 125.3%;
+    color: rgba(24, 39, 58, 0.94);
+    padding: 1rem 0;
+  }
+
+  &-text {
+    font-weight: 400;
+    font-size: 13px;
+    color: rgba(24, 39, 58, 0.94);
+    line-height: 122%;
+  }
+
+  .price__box {
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+    padding: 1rem 0;
+    font-family: "Poppins", sans-serif;
+    .price__span {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.2rem;
+      line-height: 21px;
+
+      color: #11132a;
+    }
+
+    .date__box {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.2rem;
+      line-height: 21px;
+      display: flex;
+      align-items: center;
+
+      /* identical to box height */
+
+      color: #11132a;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .progress__bar {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+
+    /* Contrast / Contrast 60% (Light) */
+
+    color: rgba(28, 46, 69, 0.6);
+
+    .progressbar__icon {
+      width: 100%;
+    }
+  }
+
+  &-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .vender__info {
+      display: flex;
+      align-items: center;
+
+      font-weight: 400;
+      font-size: 1.2rem;
+      line-height: 134%;
+      gap: 1rem;
+      color: rgba(24, 39, 58, 0.94);
+
+      .user__image {
+        width: 35px;
+      }
+    }
+    .btn-view {
+      padding: 0.5rem 2rem;
+      background: #14a9f9;
+      border-radius: 6.08108px;
+      border: none;
+      outline: none;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+}
