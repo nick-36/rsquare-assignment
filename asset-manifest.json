@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/rsquare-assignment/static/css/main.4eaf51f5.css",
+    "main.js": "/rsquare-assignment/static/js/main.4c891d41.js",
+    "index.html": "/rsquare-assignment/index.html",
+    "static/media/ProjectLive.svg": "/rsquare-assignment/static/media/ProjectLive.7f1887b3615ba65bd42cea7234147c10.svg",
+    "static/media/ScrollIcon.svg": "/rsquare-assignment/static/media/ScrollIcon.6dd93dbe69266235d2b0745ed50408b9.svg",
+    "static/media/search-icon2.svg": "/rsquare-assignment/static/media/search-icon2.8e21fc6207a090702a893e524da112ed.svg",
+    "static/media/Promotion.svg": "/rsquare-assignment/static/media/Promotion.bfdb983419f3f3d51fcb7de19588ec2b.svg",
+    "static/media/Notification.svg": "/rsquare-assignment/static/media/Notification.0780a79f10e1cd61a5906c070b0a2366.svg",
+    "static/media/ProjectPending.svg": "/rsquare-assignment/static/media/ProjectPending.42d4eaa784e253f53d118e7d67c6263a.svg",
+    "static/media/Project.svg": "/rsquare-assignment/static/media/Project.cb3982a8d7113281c7efaaf4a402295b.svg",
+    "static/media/dashboard.svg": "/rsquare-assignment/static/media/dashboard.91b1a039052e8a8fd73f9a6d614ec701.svg",
+    "static/media/Callback.svg": "/rsquare-assignment/static/media/Callback.5f1d44c6000730f43cb481c511b2cc25.svg",
+    "static/media/Calender.svg": "/rsquare-assignment/static/media/Calender.ae194ffd618229010ced5094d6c9a646.svg",
+    "static/media/ArrowRight.svg": "/rsquare-assignment/static/media/ArrowRight.c1b1b368fb0348f5a7f16dacc6b68188.svg",
+    "static/media/ProjectComplete.svg": "/rsquare-assignment/static/media/ProjectComplete.b51de30f670cc805827cd249d0506393.svg",
+    "static/media/ArrowDown.svg": "/rsquare-assignment/static/media/ArrowDown.28f87a1b8b0871ccb05cbac25fd8868a.svg",
+    "static/media/ArrowUp.svg": "/rsquare-assignment/static/media/ArrowUp.8f7ea0798f3251446d4a090d9c27ab60.svg",
+    "static/media/Vector.svg": "/rsquare-assignment/static/media/Vector.8a6810c36b6eb57486e13f9c95640c5b.svg",
+    "static/media/Message.svg": "/rsquare-assignment/static/media/Message.9cf3d9f8dc1b419b189967eeba645629.svg",
+    "static/media/Invite.svg": "/rsquare-assignment/static/media/Invite.e8d2f45a450eb8d3328b96960e7ee34d.svg",
+    "static/media/cardLarge.svg": "/rsquare-assignment/static/media/cardLarge.febe21c3a05b598e59d23cd582481572.svg",
+    "static/media/ProgressBar.svg": "/rsquare-assignment/static/media/ProgressBar.e34fc9d6a77c9b2d7e62f84f34635243.svg",
+    "static/media/Ellipse 10.svg": "/rsquare-assignment/static/media/Ellipse 10.8d9c0064c32756ae45dd3a418888dc1b.svg",
+    "main.4eaf51f5.css.map": "/rsquare-assignment/static/css/main.4eaf51f5.css.map",
+    "main.4c891d41.js.map": "/rsquare-assignment/static/js/main.4c891d41.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4eaf51f5.css",
+    "static/js/main.4c891d41.js"
+  ]
+}
