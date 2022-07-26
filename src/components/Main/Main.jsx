@@ -6,6 +6,9 @@ import CardProject from "../CardProject/CardProject";
 import "./Main.scss";
 import CardSmall from "../CardSmall/CardSmall";
 import ScrollIcon from "../../assets/ScrollIcon.svg";
+import Vector from "../../assets/Vector.svg";
+import FilterIcon from "../../assets/Filter.svg";
+
 import { cardSmallData, cardInvoiceData } from "../../data/cardData";
 
 function Main(props) {
@@ -21,9 +24,20 @@ function Main(props) {
           return <CardSmall key={i} data={data} />;
         })}
       </div>
-      <div className="main__container__text-box">
-        <h1 className="heading">Current Projects</h1>
-        <p className="text">Projects that are currently in progress</p>
+      <div className="main__container__text-box  main__center">
+        <div className="main__center-text-box">
+          <h1 className="heading">Current Projects</h1>
+          <p className="text">Projects that are currently in progress</p>
+        </div>
+        <div className="main__center-filter-box">
+          <button className="btn-filter">
+            <img src={FilterIcon} alt="icon" className="icon-filter" />
+            <span className="filter__text">Filter</span>
+          </button>
+          <div className="icon__box">
+            <img src={Vector} alt="icon" className="icon-filter" />
+          </div>
+        </div>
       </div>
       <div className="project__container">
         <div className="btn-scroll">
@@ -41,9 +55,6 @@ function Main(props) {
         {cardInvoiceData.map((data, i) => {
           return <CardInvoice key={i} data={data} />;
         })}
-        {/* <CardInvoice />
-        <CardInvoice />
-        <CardInvoice /> */}
       </div>
     </section>
   );

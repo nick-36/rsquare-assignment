@@ -7,12 +7,12 @@
   &__text-box {
     margin-bottom: 2rem;
     .heading {
+      font-family: "Rubik";
       font-style: normal;
       font-weight: 500;
       font-size: 28px;
       line-height: 125.3%;
       padding: 1rem;
-      /* or 35px */
 
       display: flex;
       align-items: center;
@@ -25,7 +25,6 @@
       line-height: 161.1%;
       padding: 1rem;
 
-      /* or 29px */
       color: #6e6f7d;
       display: flex;
       align-items: center;
@@ -33,7 +32,6 @@
   }
   .widget__container {
     display: flex;
-    // justify-content: space-between;
 
     width: 100%;
     gap: 2rem;
@@ -41,9 +39,9 @@
   .project__container {
     position: relative;
     display: flex;
-    // justify-content: space-between;
+
     width: 100%;
-    // padding: 0 1rem;
+
     gap: 2rem;
     overflow: hidden;
 
@@ -57,9 +55,40 @@
   .invoice__container {
     display: flex;
     gap: 2rem;
-    // justify-content: space-between;
 
     width: 100%;
     padding: 0 1rem;
+  }
+
+  .main__center {
+    display: flex;
+    justify-content: space-between;
+
+    &-filter-box {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      height: 5rem;
+      margin-top: 1rem;
+
+      .btn-filter {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem 2rem;
+        font-size: $font-size-medium;
+        border: none;
+        outline: none;
+        background: #ffffff;
+        border: 1px solid #ece9f1;
+        border-radius: 5px;
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        cursor: pointer;
+      }
+    }
   }
 }
