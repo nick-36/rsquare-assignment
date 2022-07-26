@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/rsquare-assignment/static/css/main.c44dfadf.css",
+    "main.css": "/rsquare-assignment/static/css/main.f624edba.css",
     "main.js": "/rsquare-assignment/static/js/main.4c891d41.js",
     "index.html": "/rsquare-assignment/index.html",
     "static/media/ProjectLive.svg": "/rsquare-assignment/static/media/ProjectLive.7f1887b3615ba65bd42cea7234147c10.svg",
@@ -23,11 +23,11 @@
     "static/media/cardLarge.svg": "/rsquare-assignment/static/media/cardLarge.febe21c3a05b598e59d23cd582481572.svg",
     "static/media/ProgressBar.svg": "/rsquare-assignment/static/media/ProgressBar.e34fc9d6a77c9b2d7e62f84f34635243.svg",
     "static/media/Ellipse 10.svg": "/rsquare-assignment/static/media/Ellipse 10.8d9c0064c32756ae45dd3a418888dc1b.svg",
-    "main.c44dfadf.css.map": "/rsquare-assignment/static/css/main.c44dfadf.css.map",
+    "main.f624edba.css.map": "/rsquare-assignment/static/css/main.f624edba.css.map",
     "main.4c891d41.js.map": "/rsquare-assignment/static/js/main.4c891d41.js.map"
   },
   "entrypoints": [
-    "static/css/main.c44dfadf.css",
+    "static/css/main.f624edba.css",
     "static/js/main.4c891d41.js"
   ]
 }
